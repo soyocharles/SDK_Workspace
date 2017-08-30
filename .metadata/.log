@@ -1,0 +1,99 @@
+!SESSION 2017-08-29 17:09:55.961 -----------------------------------------------
+eclipse.buildId=Release 14.4 Build SDK_P.49d
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_AU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-29 17:11:10.656
+!MESSAGE Indexed 'wlan_bsp_cpu_high' (0 sources, 8 headers) in 0.12 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-29 17:11:13.557
+!MESSAGE Indexed 'wlan_mac_high_ap' (37 sources, 79 headers) in 2.25 sec: 6,324 declarations; 22,777 references; 130 unresolved inclusions; 0 syntax errors; 3,275 unresolved names (10.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-29 17:11:14.543
+!MESSAGE Indexed 'wlan_mac_high_sta' (38 sources, 80 headers) in 0.97 sec: 6,297 declarations; 21,710 references; 139 unresolved inclusions; 0 syntax errors; 3,177 unresolved names (10.19%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-29 17:11:14.558
+!MESSAGE Indexed 'wlan_bsp_cpu_low' (0 sources, 8 headers) in 0.00 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-29 17:11:14.886
+!MESSAGE Indexed 'wlan_mac_low_nomac' (13 sources, 51 headers) in 0.31 sec: 2,508 declarations; 4,896 references; 58 unresolved inclusions; 0 syntax errors; 1,208 unresolved names (14.03%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-29 17:11:15.589
+!MESSAGE Indexed 'wlan_mac_high_ibss' (37 sources, 79 headers) in 0.69 sec: 6,238 declarations; 21,582 references; 135 unresolved inclusions; 0 syntax errors; 3,151 unresolved names (10.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-29 17:11:15.932
+!MESSAGE Indexed 'wlan_mac_low_dcf' (13 sources, 52 headers) in 0.33 sec: 2,780 declarations; 7,345 references; 59 unresolved inclusions; 0 syntax errors; 1,509 unresolved names (12.97%)
+
+!ENTRY org.eclipse.debug.ui 4 0 2017-08-29 17:23:06.394
+!MESSAGE Launch shortcut 'com.xilinx.sdk.debug.ui.launchShortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property com.xilinx.sdk.tools.namespace.propertytester.XCProject to type class org.eclipse.core.internal.resources.File
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:123)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:96)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:150)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:287)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.getApplicableConfigurationTypes(LaunchConfigurationManager.java:744)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.getApplicableLaunchConfigurations(LaunchConfigurationManager.java:780)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getParticipatingLaunchConfigurations(LaunchingResourceManager.java:506)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getLabel(LaunchingResourceManager.java:320)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:241)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$2.run(LaunchingResourceManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2017-08-29 17:23:06.394
+!MESSAGE No property tester contributes a property com.xilinx.sdk.tools.namespace.propertytester.XCProject to type class org.eclipse.core.internal.resources.File
+
+!ENTRY org.eclipse.help.base 4 0 2017-08-29 17:24:14.613
+!MESSAGE An error occured while pre-processing user assistance document "/com.xilinx.sdk.docs.cheatsheets/xml/profileSwApplication.xml" for search indexing
+!STACK 0
+java.lang.NullPointerException
+	at java.util.Hashtable.put(Unknown Source)
+	at java.util.Properties.setProperty(Unknown Source)
+	at org.eclipse.help.internal.dynamic.DocumentWriter.writeBytes(DocumentWriter.java:66)
+	at org.eclipse.help.internal.dynamic.DocumentWriter.writeBytes(DocumentWriter.java:53)
+	at org.eclipse.help.internal.dynamic.XMLProcessor.process(XMLProcessor.java:54)
+	at org.eclipse.help.search.SearchParticipantXML.preprocess(SearchParticipantXML.java:377)
+	at org.eclipse.help.search.SearchParticipantXML.addDocument(SearchParticipantXML.java:296)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:208)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:252)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:666)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:640)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.help.base 4 4 2017-08-29 17:24:14.831
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-08-29 17:24:14.831
+!MESSAGE Exception occurred while adding document /com.xilinx.sdk.docs.cheatsheets/xml/profileSwApplication.xml to index.
+!STACK 0
+java.io.IOException: Read error
+	at java.io.FileInputStream.read(Native Method)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager$RewindableInputStream.read(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at org.eclipse.help.search.SearchParticipantXML.addDocument(SearchParticipantXML.java:297)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:208)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:252)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:666)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:640)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

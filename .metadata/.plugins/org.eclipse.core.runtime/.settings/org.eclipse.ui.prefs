@@ -1,0 +1,10 @@
+#Tue Aug 29 17:25:26 EST 2017
+VIEW_TAB_POSITION=1024
+SHOW_TEXT_ON_PERSPECTIVE_BAR=false
+CURRENT_THEME_ID=org.eclipse.ui.ide.systemDefault
+ENABLE_MIN_MAX=false
+showIntro=false
+initialFastViewBarLocation=left
+presentationFactoryId=org.eclipse.ui.internal.r21presentationFactory
+eclipse.preferences.version=1
+DOCK_PERSPECTIVE_BAR=left
